@@ -1,7 +1,6 @@
-# Prioritize Python in GitHub language stats
-*.py linguist-detectable
-*.html linguist-vendored
-*.js linguist-vendored
-*.css linguist-vendored
-migrations/** linguist-vendored
+# Tell GitHub to ignore static files in language stats
 static/** linguist-vendored
+assets/** linguist-vendored
+*.css linguist-vendored
+*.js linguist-vendored
+*.html linguist-vendored
