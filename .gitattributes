@@ -1,3 +1,7 @@
-*.css linguist-detectable=true
-*.js linguist-detectable=true
-*.html linguist-detectable=true
+# Prioritize Python in GitHub language stats
+*.py linguist-detectable
+*.html linguist-vendored
+*.js linguist-vendored
+*.css linguist-vendored
+migrations/** linguist-vendored
+static/** linguist-vendored
